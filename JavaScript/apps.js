@@ -19,7 +19,7 @@ document.write('<h1>welcome our special students we hope you enjoying this lovel
 
 var universityMajor = prompt('whats your university major?' , 'Mathematics  , Engineering , Medicine');
 while(universityMajor !== 'Mathematics' && universityMajor !== 'Engineering' && universityMajor !== 'Medicin' ){
-   universityMajor = prompt('please enter one of the following Mathematics or Engineering');
+   universityMajor = prompt('please enter one of the following Mathematics or Engineering or Medicine');
 }
 
 var studentsNumber = prompt('how many pictures of a students in the same major would you like to see?');
