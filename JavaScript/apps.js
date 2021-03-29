@@ -1,11 +1,21 @@
- alert('hello')
+function welcomeingMessage(userName){ 
+   alert('Hello ' + userName )
+}
+welcomeingMessage('Afraa'); 
+   
+
 var yourAge = prompt('What is your age?');
+function userAge(yourAge){
+
 if (yourAge == '20') {
 document.write('<img src= "https://media.istockphoto.com/photos/happy-student-in-class-picture-id539246041?k=6&m=539246041&s=170667a&w=0&h=Rm5xby6gYlrLWUsLuQsH94Kmj-PtYUr4HmSuh9nrKhs="/>');
 }
 else { 
 document.write('<h1>welcome our special students we hope you enjoying this lovely journey in our school</h1>');
      }
+
+ return userAge;
+}
 
 var universityMajor = prompt('whats your university major?' , 'Mathematics  , Engineering , Medicine');
 while(universityMajor !== 'Mathematics' && universityMajor !== 'Engineering' && universityMajor !== 'Medicin' ){
@@ -24,3 +34,10 @@ if(universityMajor === 'Medicine'){
 }
 }
 
+
+var graduate = prompt('whats your graduation year?');
+var calc = function(year){
+   var calc = 2021 - year
+   return calc;
+}
+console.log(calc)
