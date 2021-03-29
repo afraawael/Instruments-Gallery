@@ -1,6 +1,4 @@
-
-
-alert('hello')
+ alert('hello')
 var yourAge = prompt('What is your age?');
 if (yourAge == '20') {
 document.write('<img src= "https://media.istockphoto.com/photos/happy-student-in-class-picture-id539246041?k=6&m=539246041&s=170667a&w=0&h=Rm5xby6gYlrLWUsLuQsH94Kmj-PtYUr4HmSuh9nrKhs="/>');
