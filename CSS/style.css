@@ -34,3 +34,6 @@ footer h4 {
 footer ul {
    text-align: center;
 }
+footer ul a {
+    text-decoration: none;
+}
