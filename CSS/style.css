@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(252, 235, 237);
+}
+
+.link{
+    display: inline-block;
+}
+nav ul {
+    float:right;
+}
+header {
+    background-color: rgb(226, 183, 203);
+}
+main div h1 {
+    color: rgb(68, 58, 63);
+    text-align: center;
+} 
+
+main div h3 {
+    text-align: center;
+}
+main div p {
+    font-size: larger;
+}
+main img {
+    float: right;
+}
+footer p {
+    font-weight: bold;
+}
+footer h4 {
+    font-size: medium
+}
+footer ul {
+   text-align: center;
+}

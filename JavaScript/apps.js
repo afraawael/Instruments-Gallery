@@ -1,3 +1,5 @@
+
+
 alert('hello')
 var yourAge = prompt('What is your age?');
 if (yourAge == '20') {
@@ -23,3 +25,4 @@ if(universityMajor === 'Medicine'){
    alert('welcome')
 }
 }
+
